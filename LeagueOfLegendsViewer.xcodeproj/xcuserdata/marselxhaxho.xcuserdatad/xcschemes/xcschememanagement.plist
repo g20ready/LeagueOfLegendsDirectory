@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>LeagueOfLegendsViewer.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>130BCBB11DBBC0B600418014</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>130BCBC81DBBC0B600418014</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>130BCBD31DBBC0B600418014</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
