@@ -8,11 +8,19 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class SplashViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        print("viewDidLoad")
+        
+        ApiManager.shared.fetchChampions { (champions, err) in
+            if let error = err {
+                print("fetchChampions Error \(error.localizedDescription)")
+                return
+            }
+            print("fetched \(champions?.count) champions")
+        }
     }
 
     override func didReceiveMemoryWarning() {

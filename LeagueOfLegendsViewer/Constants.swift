@@ -10,7 +10,15 @@ import Foundation
 
 struct Constants {
     
-    struct LOLApiDetails {
+    struct LeagueOfLegends {
+        
+        struct Credentials {
+            
+        }
+        
+        struct URLs {
+            static let championsUrl = "http://ddragon.leagueoflegends.com/cdn/6.21.1/data/en_US/champion.json"
+        }
         
     }
     
