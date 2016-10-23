@@ -126,12 +126,12 @@
 		130BCBA91DBBC0B600418014 = {
 			isa = PBXGroup;
 			children = (
+				0DEE4C028492A3746E90A25C /* Frameworks */,
 				130BCBB41DBBC0B600418014 /* LeagueOfLegendsViewer */,
 				130BCBCC1DBBC0B600418014 /* LeagueOfLegendsViewerTests */,
 				130BCBD71DBBC0B600418014 /* LeagueOfLegendsViewerUITests */,
-				130BCBB31DBBC0B600418014 /* Products */,
 				59AF18E73F91AF6B72B8BA05 /* Pods */,
-				0DEE4C028492A3746E90A25C /* Frameworks */,
+				130BCBB31DBBC0B600418014 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -148,17 +148,17 @@
 		130BCBB41DBBC0B600418014 /* LeagueOfLegendsViewer */ = {
 			isa = PBXGroup;
 			children = (
-				130BCBE81DBBC0CC00418014 /* Utils */,
 				130BCBE71DBBC0C500418014 /* Managers */,
 				130BCBE61DBBC0C000418014 /* Model */,
+				130BCBE81DBBC0CC00418014 /* Utils */,
 				130BCBB51DBBC0B600418014 /* AppDelegate.swift */,
-				130BCBB71DBBC0B600418014 /* SplashViewController.swift */,
-				130BCBB91DBBC0B600418014 /* Main.storyboard */,
 				130BCBBF1DBBC0B600418014 /* Assets.xcassets */,
-				130BCBC11DBBC0B600418014 /* LaunchScreen.storyboard */,
-				130BCBC41DBBC0B600418014 /* Info.plist */,
-				130BCBBC1DBBC0B600418014 /* LeagueOfLegendsViewer.xcdatamodeld */,
 				130BCBE91DBBC0DB00418014 /* Constants.swift */,
+				130BCBC41DBBC0B600418014 /* Info.plist */,
+				130BCBC11DBBC0B600418014 /* LaunchScreen.storyboard */,
+				130BCBBC1DBBC0B600418014 /* LeagueOfLegendsViewer.xcdatamodeld */,
+				130BCBB91DBBC0B600418014 /* Main.storyboard */,
+				130BCBB71DBBC0B600418014 /* SplashViewController.swift */,
 			);
 			path = LeagueOfLegendsViewer;
 			sourceTree = "<group>";
@@ -166,8 +166,8 @@
 		130BCBCC1DBBC0B600418014 /* LeagueOfLegendsViewerTests */ = {
 			isa = PBXGroup;
 			children = (
-				130BCBCD1DBBC0B600418014 /* LeagueOfLegendsViewerTests.swift */,
 				130BCBCF1DBBC0B600418014 /* Info.plist */,
+				130BCBCD1DBBC0B600418014 /* LeagueOfLegendsViewerTests.swift */,
 			);
 			path = LeagueOfLegendsViewerTests;
 			sourceTree = "<group>";
@@ -175,8 +175,8 @@
 		130BCBD71DBBC0B600418014 /* LeagueOfLegendsViewerUITests */ = {
 			isa = PBXGroup;
 			children = (
-				130BCBD81DBBC0B600418014 /* LeagueOfLegendsViewerUITests.swift */,
 				130BCBDA1DBBC0B600418014 /* Info.plist */,
+				130BCBD81DBBC0B600418014 /* LeagueOfLegendsViewerUITests.swift */,
 			);
 			path = LeagueOfLegendsViewerUITests;
 			sourceTree = "<group>";
@@ -187,7 +187,7 @@
 				130BCBF01DBCF79000418014 /* DBO */,
 				130BCBEF1DBCF78600418014 /* DTO */,
 			);
-			name = Model;
+			path = Model;
 			sourceTree = "<group>";
 		};
 		130BCBE71DBBC0C500418014 /* Managers */ = {
@@ -196,14 +196,14 @@
 				130BCBEB1DBBC76300418014 /* ApiManager.swift */,
 				130BCC011DBCFB7100418014 /* SyncManager.swift */,
 			);
-			name = Managers;
+			path = Managers;
 			sourceTree = "<group>";
 		};
 		130BCBE81DBBC0CC00418014 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = Utils;
+			path = Utils;
 			sourceTree = "<group>";
 		};
 		130BCBEF1DBCF78600418014 /* DTO */ = {
@@ -212,20 +212,20 @@
 				130BCC001DBCF85000418014 /* Objects */,
 				130BCBFF1DBCF84900418014 /* Responses */,
 			);
-			name = DTO;
+			path = DTO;
 			sourceTree = "<group>";
 		};
 		130BCBF01DBCF79000418014 /* DBO */ = {
 			isa = PBXGroup;
 			children = (
-				130BCBF11DBCF79800418014 /* ChampionStats+CoreDataClass.swift */,
-				130BCBF21DBCF79800418014 /* ChampionStats+CoreDataProperties.swift */,
 				130BCBF31DBCF79800418014 /* Champion+CoreDataClass.swift */,
 				130BCBF41DBCF79800418014 /* Champion+CoreDataProperties.swift */,
+				130BCBF11DBCF79800418014 /* ChampionStats+CoreDataClass.swift */,
+				130BCBF21DBCF79800418014 /* ChampionStats+CoreDataProperties.swift */,
 				130BCBF51DBCF79800418014 /* ChampionTags+CoreDataClass.swift */,
 				130BCBF61DBCF79800418014 /* ChampionTags+CoreDataProperties.swift */,
 			);
-			name = DBO;
+			path = DBO;
 			sourceTree = "<group>";
 		};
 		130BCBFF1DBCF84900418014 /* Responses */ = {
@@ -233,7 +233,7 @@
 			children = (
 				130BCBFD1DBCF84600418014 /* ChampionResponseDTO.swift */,
 			);
-			name = Responses;
+			path = Responses;
 			sourceTree = "<group>";
 		};
 		130BCC001DBCF85000418014 /* Objects */ = {
@@ -241,7 +241,7 @@
 			children = (
 				130BCBED1DBBCCD300418014 /* ChampionDTO.swift */,
 			);
-			name = Objects;
+			path = Objects;
 			sourceTree = "<group>";
 		};
 		59AF18E73F91AF6B72B8BA05 /* Pods */ = {
@@ -577,6 +577,7 @@
 				130BCBBA1DBBC0B600418014 /* Base */,
 			);
 			name = Main.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 		130BCBC11DBBC0B600418014 /* LaunchScreen.storyboard */ = {
@@ -585,6 +586,7 @@
 				130BCBC21DBBC0B600418014 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
